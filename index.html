@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Smart PDF Compressor - Συμπίεση PDF Δωρεάν Online</title>
+  <meta name="title" content="Smart PDF Compressor - Συμπίεση PDF Δωρεάν Online" />
+  <meta name="description" content="Συμπιέστε αρχεία PDF γρήγορα και εύκολα με PDF Smart Compressor. Μείωση μεγέθους χωρίς απώλεια ποιότητας. Δωρεάν, ασφαλές και online." />
+  <meta name="keywords" content="συμπίεση pdf, pdf compressor, μείωση pdf, compress pdf, online pdf tools" />
+  <meta name="author" content="KonsKall" />
+  <meta name="robots" content="index, follow" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!-- Open Graph meta tags -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://konskall-ai.github.io/" />
+<meta property="og:title" content="Smart PDF Compressor - Συμπίεση PDF Δωρεάν Online" />
+<meta property="og:description" content="Συμπιέστε αρχεία PDF γρήγορα και εύκολα με Smart PDF Compressor. Δωρεάν, ασφαλές και online." />
+<meta property="og:image" content="https://konskall-ai.github.io/SmartPDFCompressor.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<!-- Twitter Card meta tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://konskall-ai.github.io" />
+<meta name="twitter:title" content="Smart PDF Compressor" />
+<meta name="twitter:description" content="Συμπίεση PDF online δωρεάν, γρήγορα και εύκολα." />
+<meta name="twitter:image" content="https://konskall-ai.github.io/SmartPDFCompressor.png" />
+<!-- LinkedIn / General -->
+<meta name="description" content="Συμπιέστε αρχεία PDF γρήγορα και εύκολα με Smart PDF Compressor. Μείωση μεγέθους χωρίς απώλεια ποιότητας. Δωρεάν, ασφαλές και online." />
+<!-- Canonical URL -->
+<link rel="canonical" href="https://konskall-ai.github.io" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Smart PDF Compressor",
+  "url": "https://konskall-ai.github.io",
+  "description": "Συμπιέστε αρχεία PDF γρήγορα και εύκολα με Smart PDF Compressor. Μείωση μεγέθους χωρίς απώλεια ποιότητας. Δωρεάν, ασφαλές και online.",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "All",
+  "browserRequirements": "Requires JavaScript",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "KonsKall"
+  },
+  "potentialAction": {
+    "@type": "UseAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://konskall-ai.github.io"
+    }
+  }
+}
+</script>
+  <style>
+    :root {
+      --navy: #182e4e; --navy2: #254a7c;
+      --gray: #f6f7fa; --gray2: #ebeff6; --white: #fff;
+      --accent: #2493ef; --error: #cb3142; --success: #22bb88;
+      --card-shadow: 0 8px 32px rgba(18,34,60,.10);
+      --radius: 15px;
+    }
+    html, body {
+      background: linear-gradient(180deg, #f5f8fc 0%, #eaf0ff 100%);
+      margin: 0;
+      color: #1e2335;
+    }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+  .page-card {
+  background: linear-gradient(180deg, #6f7fa 0%, #f6f7fa 100%);
+  border-radius: 22px;
+  border: 1.9px solid rgba(36, 68, 118, 0.15);
+  box-shadow: 0 10px 30px rgba(36, 68, 118, 0.15);
+  max-width: 900px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.page-card header,
+.page-card main,
+.page-card footer {
+  margin-bottom: 24px;
+}
+.page-card footer {
+  margin-bottom: 0;
+}
+    header {
+      background: linear-gradient(92deg, var(--accent), var(--navy2));
+      color: var(--white);
+      padding: 25px 0 20px;
+      text-align: center;
+      font-size: 2rem;
+      letter-spacing: .07em;
+      box-shadow: 0 6px 24px rgba(20,40,80,0.17);
+	  font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+      font-weight: 700;
+    }
+    main {
+      max-width: 660px;
+      margin: 38px auto 0 auto;
+      padding: 0 10px;
+    }
+    .card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--card-shadow);
+      padding: 32px 32px 28px 32px;
+      margin: 0 auto;
+      min-height: 374px;
+      display: flex;
+      flex-direction: column;
+      gap: 33px;
+    }
+    .row { display: flex; gap: 22px; flex-wrap: wrap; }
+    .col { flex: 1 1 310px; min-width: 0; }
+    .drop {
+      border: 2px dashed #c7d2e5;
+      border-radius: var(--radius);
+      background: linear-gradient(180deg,#fff,var(--gray) 86%);
+      min-height: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      text-align: center;
+      transition: border-color .2s, background .15s;
+      cursor: pointer;
+    }
+    .drop.dragover {
+      border-color: var(--accent);
+      background: #e5f0ff;
+    }
+    .drop-icon {
+      font-size: 38px;
+      margin-bottom: 8px;
+    }
+    .drop-text {
+      font-size: 16px;
+      color: #334;
+    }
+    .drop input { display: none; }
+    #previewZone {
+      margin-top: 12px;
+      background: #fafdff;
+      border-radius: 12px;
+      border: 1.4px solid #e3eaff;
+      padding: 9px 10px 8px 10px;
+      display: none;
+      box-shadow: 0 2px 10px rgba(30,60,100,0.07);
+      align-items: center;
+    }
+    .preview-flex {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .pdf-thumb {
+      width: 34px;
+      height: 44px;
+      border-radius: 6px;
+      background: #e0e7ef;
+      object-fit: cover;
+      box-shadow: 0 1px 5px rgba(0,0,0,.03);
+      display: block;
+    }
+    .pdf-info {
+      flex: 1 1 auto;
+      min-width: 1px;
+    }
+    .pdf-title {
+      font-weight: 600;
+      color: var(--navy2);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .pdf-size {
+      font-size: 13px;
+      color: #708091;
+    }
+    .remove-btn {
+      background: none;
+      border: none;
+      color: #adb0ba;
+      font-size: 1.3em;
+      cursor: pointer;
+      padding: 0 7px;
+      border-radius: 50%;
+      transition: background .16s;
+    }
+    .remove-btn:hover {
+      background: #eff2fa;
+      color: #cb3142;
+    }
+    label.floating-label {
+      font-size: 15.3px;
+      color: #244476;
+      margin: 10px 0 6px;
+      font-weight: 500;
+    }
+    select,
+    .btn {
+      font-family: inherit;
+      border-radius: var(--radius);
+      font-size: 15.7px;
+      border: 1.3px solid #dbe4ef;
+      transition: border-color .18s;
+    }
+    select {
+      min-height: 43px;
+      padding: 0 12px;
+      width: 100%;
+      background: #fff;
+      color: #132c4f;
+      font-weight: 600;
+    }
+    select:focus {
+      border-color: var(--accent);
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      min-height: 43px;
+      background: linear-gradient(92deg, var(--accent), var(--navy2));
+      color: #fff;
+      padding: 0 26px;
+      font-weight: 700;
+      border: none;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: background .13s, box-shadow .13s, transform .10s;
+      box-shadow: 0 1.5px 8px rgba(33,134,204,.06);
+    }
+    .btn:disabled {
+      opacity: .64;
+      cursor: not-allowed;
+    }
+    .btn:hover:not(:disabled) {
+      background: linear-gradient(90deg, #43b8fd, var(--accent) 60%);
+      box-shadow: 0 7px 13px rgba(22,66,124,.11);
+      transform: scale(1.022);
+    }
+    .progress-wrap {
+      margin: 16px 0 9px;
+      display: none;
+    }
+    .progress-text {
+      color: #6c87ac;
+      margin: 7px 0 0 2px;
+      font-size: 14px;
+    }
+  progress {
+  width: 100%;
+  height: 11px;
+  border-radius: 7px;
+  background: #eaf0fa;
+  margin-bottom: 0px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+/* Για Chrome/Safari */
+progress::-webkit-progress-bar {
+  background: #eaf0fa;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background: linear-gradient(90deg, var(--accent), #43b8fd);
+  border-radius: 7px;
+}
+/* Για Firefox */
+progress::-moz-progress-bar {
+  background: linear-gradient(90deg, var(--accent), #43b8fd);
+  border-radius: 7px;
+}
+    .results {
+      margin: 17px 2px 0;
+      background: #fafdff;
+      border-radius: 12px;
+      box-shadow: 0 1.5px 6px rgba(30,50,98,0.03);
+      padding: 11px 12px 7px 12px;
+      font-size: 15.8px;
+      border: 1.1px solid #e6eefa;
+      display: none;
+    }
+    .results .stat {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 9px 0;
+    }
+    .results .label {
+      color: #60749a;
+      font-size: 14px;
+    }
+    .results .value {
+      color: #212862;
+      font-weight: 700;
+    }
+    .results .value.success {
+      color: var(--success);
+    }
+    .results .value.red {
+      color: var(--error);
+    }
+    footer {
+      background: linear-gradient(92deg, var(--accent), var(--navy2));
+      color:#eaf4fe;text-align:center;padding:13px 0 9px 0;
+      border-radius:0 0 16px 16px;font-size:15px;letter-spacing:.03em;
+      margin:44px 0 2px 0;box-shadow:0 -3px 33px rgba(22,44,88,0.07);
+	  padding: 25px 0 20px;
+	  box-shadow: 0 -6px 24px rgba(20,40,80,0.17);
+    }
+	#loadingIndicator {
+  text-align: center;
+  margin-top: 15px;
+  display: none;
+}
+.spinner {
+  margin: auto;
+  border: 4px solid #eaeaea;
+  border-top: 4px solid var(--accent);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* Responsive styles */
+@media (max-width: 600px) {
+  footer {
+    padding: 14px 2vw;
+  }
+}
+    /* Responsive styles */
+    @media (max-width: 900px) {
+      main,
+      .card {
+        max-width: 85vw;
+      }
+      .row {
+        flex-direction: column;
+        gap: 29px;
+      }
+      .col {
+        min-width: unset;
+      }
+      .card {
+        padding: 17px 4vw;
+      }
+    }
+    @media (max-width: 1000px) {
+      main,
+      .card {
+        max-width: 97vw;
+      }
+      .row {
+        flex-direction: column;
+        gap: 0px;
+      }
+      .col {
+        min-width: unset;
+        width: 100%;
+      }
+      .card {
+        padding: 16px 4vw 22px 4vw;
+      }
+    }
+    @media (max-width: 600px) {
+      header {
+        font-size: 1.05rem;
+        padding: 14px 2vw;
+      }
+      main {
+        padding: 0 2vw;
+      }
+      .card,
+      .drop {
+        padding: 9px 2vw;
+      }
+      .btn {
+        min-width: 70vw;
+        font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      select {
+        width: 100%;
+        font-size: 1em;
+      }
+      .results {
+        padding: 7px 2vw;
+      }
+      #fileInfo,
+      .drop-text,
+      label,
+      .stat-label,
+      .stat-value {
+        font-size: 1em;
+      }
+      .pdf-title {
+        font-size: 0.98em;
+      }
+      .pdf-thumb {
+        width: 25px;
+        height: 32px;
+      }
+      #previewZone {
+        padding: 7px 2vw;
+      }
+    }
+	#cannotCompressInfo {
+  max-width: 610px;
+  margin: 30px auto 14px auto;
+  background: #fffbe8;
+  border-radius: 15px;
+  border: 1.8px solid #f8b650;
+  box-shadow: 0 4px 12px rgba(248, 182, 80, 0.4);
+  padding: 22px 22px 16px 22px;
+  font-size: 16px;
+  color: #db8a00;
+}
+@media (max-width: 1000px) {
+  #cannotCompressInfo {
+    max-width: 95vw;
+    margin: 25px auto 12px auto;
+  }
+}
+@media (max-width: 900px) {
+  #cannotCompressInfo {
+    max-width: 89vw;
+    margin: 22px auto 10px auto;
+    padding: 18px 3vw 12px 3vw;
+  }
+}
+@media (max-width: 600px) {
+  #cannotCompressInfo {
+    max-width: 88vw;
+    margin: 16px auto 8px auto;
+    padding: 14px 2vw 10px 2vw;
+    font-size: 14px;
+  }
+  #cannotCompressInfo ul {
+    margin: 10px 0 4px 25px;
+    font-size: 13px;
+  }
+  #cannotCompressInfo ul li {
+    margin-bottom: 3px;
+  }
+}
+	.pdf-title { white-space:normal; overflow-wrap: break-word; word-break:break-all; }
+  </style>
+</head>
+<body>
+ <div class="page-card">
+  <header>Smart PDF Compressor</header>
+  <main>
+    <div class="card">
+      <div class="row">
+        <div class="col">
+          <div class="drop" id="drop">
+            <div class="drop-icon">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" style="width:38px; height:46px; display:block; margin:0 auto;" />
+            </div>
+            <div class="drop-text"><strong>Κάντε κλικ ή σύρετε το PDF εδώ</strong></div>
+            <div class="drop-text" style="font-size:14px; color:#788493;">Υποστηρίζονται αρχεία έως 10MB</div>
+            <input id="file" type="file" accept="application/pdf" />
+          </div>
+          <div id="previewZone">
+            <div class="preview-flex">
+              <img class="pdf-thumb" id="pdfThumb" src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" />
+              <div class="pdf-info">
+                <div class="pdf-title" id="previewName"></div>
+                <div class="pdf-size" id="previewSize"></div>
+              </div>
+              <button class="remove-btn" id="removeBtn" title="Αφαίρεση">&times;</button>
+            </div>
+          </div>
+          <!-- Loading indicator -->
+          <div id="loadingIndicator">
+            <div class="spinner"></div>
+            <div>Γίνεται συμπίεση...</div>
+          </div>
+        </div>
+        <div class="col">
+          <label class="floating-label" for="quality">Επίπεδο Συμπίεσης</label>
+          <select id="quality">
+            <option value="HIGH">Υψηλή συμπίεση (μικρότερο μέγεθος)</option>
+            <option value="MEDIUM" selected>Ισορροπημένη (προτεινόμενη)</option>
+            <option value="LOW">Χαμηλή (καλύτερη ποιότητα)</option>
+          </select>
+          <div style="margin-top:24px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap;">
+            <button class="btn" id="compressBtn" disabled>
+              <span id="btnText">Συμπίεση PDF</span>
+            </button>
+          </div>
+          <div class="progress-wrap" id="progressWrap">
+            <progress id="progress" value="0" max="100"></progress>
+            <div class="progress-text" id="progressText">Επεξεργασία...</div>
+          </div>
+          <div class="results" id="results"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div id="cannotCompressInfo">
+  <div style="display:flex; align-items:center; gap:12px; font-weight:600;">
+    <svg width="30" height="30" viewBox="0 0 26 26" fill="none" style="vertical-align:middle">
+  <polygon points="13,3 25,23 1,23" fill="#f7b42c"/>
+  <rect x="11.2" y="10.5" width="3.6" height="7" rx="1.7" fill="#fff"/>
+  <rect x="11.2" y="19" width="3.6" height="3.6" rx="1.6" fill="#fff"/>
+</svg>
+    <span>ΠΡΟΣΟΧΗ: Τα παρακάτω είδη PDF δεν μπορούν να συμπιεστούν:</span>
+  </div>
+  <ul style="margin:12px 0 4px 35px; padding:0; font-size:15px;">
+    <li>PDF προστατευμένα με password ή security περιορισμούς</li>
+    <li>PDF που δεν επιτρέπουν επεξεργασία/εκτύπωση</li>
+    <li>PDF ήδη συμπιεσμένα από άλλες εφαρμογές</li>
+    <li>PDF με εσωτερικές βλάβες/ασυνήθιστη δομή</li>
+  </ul>
+  <div style="margin:12px 0 0 0; font-size:14px; color:#d37e05;">
+    Για να τα συμπιέσετε, αποθηκεύστε ως νέο PDF χωρίς προστασία από το PDF viewer.
+  </div>
+</div>
+  <footer>
+    © 2025 Smart PDF Compressor • Powered by <a href="http://linkedin.com/in/konstantinos-kalliakoudis-902b90103" target="_blank" rel="noopener noreferrer" style="color:#ffffff;">KonsKall</a>
+  </footer>
+  <script>
+    const API_URL = 'https://pdf-compress-api-dl83.onrender.com'; // Αντικατάστησε με το Render URL σου
+    const fileInput = document.getElementById('file');
+    const drop = document.getElementById('drop');
+    const previewZone = document.getElementById('previewZone');
+    const pdfThumb = document.getElementById('pdfThumb');
+    const previewName = document.getElementById('previewName');
+    const previewSize = document.getElementById('previewSize');
+    const removeBtn = document.getElementById('removeBtn');
+    const compressBtn = document.getElementById('compressBtn');
+    const qualitySel = document.getElementById('quality');
+    const progressWrap = document.getElementById('progressWrap');
+    const progress = document.getElementById('progress');
+    const progressText = document.getElementById('progressText');
+    const results = document.getElementById('results');
+    const loadingIndicator = document.getElementById('loadingIndicator');
+    let selectedFile = null;
+    function fmtBytes(n) {
+      if (!n && n !== 0) return '0 B';
+      const k = 1024, sizes = ['B', 'KB', 'MB', 'GB'];
+      const i = Math.floor(Math.log(n) / Math.log(k));
+      return (n / Math.pow(k, i)).toFixed(2) + ' ' + sizes[i];
+    }
+	function uploadWithProgress(formData, onProgress) {
+    return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', `${API_URL}/api/compress`, true);
+    xhr.responseType = 'arraybuffer'; // ΝΕΑ ΓΡΑΜΜΗ - Όχι text, αλλά arraybuffer!
+    xhr.upload.onprogress = (e) => {
+      if (e.lengthComputable && typeof onProgress === 'function') {
+        onProgress((e.loaded / e.total) * 100);
+      }
+    };
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState === 4) {
+        if (xhr.status >= 200 && xhr.status < 300) {
+          // Επιτυχία: μετατροπή arraybuffer σε blob
+          const blob = new Blob([xhr.response], { type: 'application/pdf' });
+          resolve(blob);
+        } else {
+          // Σφάλμα: διάβασε το response ως text για το error message
+          let msg = "Σφάλμα κατά τη συμπίεση";
+          try {
+            const decoder = new TextDecoder('utf-8');
+            const text = decoder.decode(xhr.response);
+            const contentType = xhr.getResponseHeader("content-type");
+            if (contentType && contentType.includes("application/json")) {
+              const j = JSON.parse(text);
+              if (j.error) msg = j.error;
+              else if (j.message) msg = j.message;
+              else msg = JSON.stringify(j);
+            } else {
+              msg = text;
+            }
+          } catch (e) {
+            msg = "Απέτυχε η συμπίεση";
+          }
+          if (msg.includes(';')) msg = msg.split(';')[0].trim();
+          reject(new Error(msg));
+        }
+      }
+    };
+    xhr.onerror = () => reject(new Error("Network error"));
+    xhr.send(formData);
+  });
+}
+    function setFile(f) {
+      selectedFile = f;
+      previewZone.style.display = 'block';
+      previewName.textContent = f.name;
+      previewSize.textContent = fmtBytes(f.size);
+      compressBtn.disabled = false;
+      results.style.display = 'none';
+    }
+    drop.addEventListener('click', () => fileInput.click());
+    drop.addEventListener('dragover', e => {
+      e.preventDefault();
+      drop.classList.add('dragover');
+    });
+    drop.addEventListener('dragleave', () => drop.classList.remove('dragover'));
+    drop.addEventListener('drop', e => {
+      e.preventDefault();
+      drop.classList.remove('dragover');
+      const f = e.dataTransfer.files[0];
+      if (f && f.type === 'application/pdf') {
+        setFile(f);
+        fileInput.files = e.dataTransfer.files;
+      }
+    });
+    fileInput.addEventListener('change', e => {
+      const f = e.target.files[0];
+      if (f && f.type === 'application/pdf') { setFile(f); }
+    });
+    removeBtn.addEventListener('click', () => {
+      fileInput.value = '';
+      previewZone.style.display = 'none';
+      compressBtn.disabled = true;
+      selectedFile = null;
+      results.style.display = 'none';
+    });
+    compressBtn.addEventListener('click', async () => {
+  if (!selectedFile) return;
+if (selectedFile.size > 10 * 1024 * 1024) {
+  results.innerHTML = `
+    <div style="display:flex; align-items:center; gap:10px; color:#cb3142; font-weight:600; font-size:15.5px;">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" style="flex-shrink:0;">
+        <rect width="22" height="22" rx="6" fill="#cb3142"/>
+        <path d="M7 7l8 8M15 7l-8 8" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+      <span>Το αρχείο ξεπερνά το όριο των 10MB. Παρακαλώ επιλέξτε μικρότερο PDF.</span>
+    </div>
+  `;
+  results.style.display = 'block';
+  setTimeout(() => {
+  results.style.display = 'none';
+}, 4000);
+  progressWrap.style.display = 'none';
+  loadingIndicator.style.display = 'none';
+  return;
+}
+  loadingIndicator.style.display = 'block';
+  compressBtn.disabled = true;
+  progressWrap.style.display = 'block';
+  progress.value = 0;
+  results.style.display = 'none';
+  try {
+    const formData = new FormData();
+    formData.append('pdf', selectedFile);
+    formData.append('compressionLevel', qualitySel.value);
+    // Πραγματικό progress
+    const blob = await uploadWithProgress(formData, percent => {
+      progress.value = percent;
+      progressText.textContent = `Ανέβασμα PDF... (${percent.toFixed(1)}%)`;
+    });
+    // Μετά το upload, άσε το progress bar ολοκληρωμένο
+    progress.value = 100;
+    progressText.textContent = "Επεξεργασία και λήψη...";
+    const compressedSize = blob.size;
+    const originalSize = selectedFile.size;
+    const reduction = originalSize - compressedSize;
+    const pct = originalSize > 0 ? ((reduction / originalSize) * 100).toFixed(1) : '0.0';
+    // Download blob
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = selectedFile.name.replace(/\.pdf$/i, '') + '.compressed.pdf';
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => {
+      URL.revokeObjectURL(url);
+      a.remove();
+    }, 110);
+    results.innerHTML = `
+      <div class="stat"><span class="label">Αρχικό μέγεθος:</span><span class="value">${fmtBytes(originalSize)}</span></div>
+      <div class="stat"><span class="label">Τελικό μέγεθος:</span><span class="value">${fmtBytes(compressedSize)}</span></div>
+      <div class="stat"><span class="label">Μείωση:</span><span class="value success">${fmtBytes(reduction)} (${pct}%)</span></div>
+      <div style="margin-top:16px; padding-top:16px; border-top:1px solid #d4edda; color:var(--success); display:flex; align-items:center; justify-content:center; gap:9px;">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect width="22" height="22" rx="6" fill="#20bb75"/><path d="M6 11.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Το συμπιεσμένο αρχείο PDF κατέβηκε επιτυχώς!</span>
+      </div>
+    `;
+    results.style.display = 'block';
+    progressText.textContent = "Ολοκληρώθηκε!";
+    setTimeout(() => progressWrap.style.display = 'none', 1200);
+  } catch (err) {
+    let errorMsg = err.message || 'Απέτυχε η συμπίεση.';
+    if (errorMsg.includes(';')) errorMsg = errorMsg.split(';')[0].trim();
+    results.innerHTML = `<span class="value red">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" style="vertical-align:middle;">
+        <rect width="22" height="22" rx="6" fill="#cb3142"/>
+        <path d="M7 7l8 8M15 7l-8 8" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+    </span> ${errorMsg}`;
+    results.style.display = 'block';
+    progressWrap.style.display = 'none';
+  } finally {
+    loadingIndicator.style.display = 'none';
+    compressBtn.disabled = false;
+  }
+});
+  </script>
+  </div>
+</body>
+</html>
+<!-- Made by KonsKall -->
+
+
